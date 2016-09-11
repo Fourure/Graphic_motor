@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6D2A994F1C6CCB1B00C8A021 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A994E1C6CCB1B00C8A021 /* main.cpp */; };
+		6D2A99581C6CCE5000C8A021 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2A99561C6CCE5000C8A021 /* Logger.cpp */; };
+		6D9963951D5F71810010BBBB /* MemoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9963931D5F71810010BBBB /* MemoryManager.cpp */; };
+		6DC5B1A31D8554AC00DE8716 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC5B1A11D8554AC00DE8716 /* GLUT.framework */; };
+		6DC5B1A41D8554AC00DE8716 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		6D2A994B1C6CCB1B00C8A021 /* moteur_graphique */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = moteur_graphique; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2A994E1C6CCB1B00C8A021 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D2A99561C6CCE5000C8A021 /* Logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Logger.cpp; sourceTree = "<group>"; };
+		6D2A99571C6CCE5000C8A021 /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		6D9963931D5F71810010BBBB /* MemoryManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryManager.cpp; sourceTree = "<group>"; };
+		6D9963941D5F71810010BBBB /* MemoryManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MemoryManager.hpp; sourceTree = "<group>"; };
+		6D9963961D6068F20010BBBB /* MemoryChecker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoryChecker.hpp; sourceTree = "<group>"; };
+		6D9963971D606B7F0010BBBB /* MemoryCheckerOff.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoryCheckerOff.hpp; sourceTree = "<group>"; };
+		6DC5B1A11D8554AC00DE8716 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC5B1A31D8554AC00DE8716 /* GLUT.framework in Frameworks */,
+				6DC5B1A41D8554AC00DE8716 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +55,8 @@
 		6D2A99421C6CCB1B00C8A021 = {
 			isa = PBXGroup;
 			children = (
+				6DC5B1A11D8554AC00DE8716 /* GLUT.framework */,
+				6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */,
 				6D2A994D1C6CCB1B00C8A021 /* moteur_graphique */,
 				6D2A994C1C6CCB1B00C8A021 /* Products */,
 			);
@@ -58,6 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				6D2A994E1C6CCB1B00C8A021 /* main.cpp */,
+				6D2A99561C6CCE5000C8A021 /* Logger.cpp */,
+				6D2A99571C6CCE5000C8A021 /* Logger.hpp */,
+				6D9963931D5F71810010BBBB /* MemoryManager.cpp */,
+				6D9963941D5F71810010BBBB /* MemoryManager.hpp */,
+				6D9963961D6068F20010BBBB /* MemoryChecker.hpp */,
+				6D9963971D606B7F0010BBBB /* MemoryCheckerOff.hpp */,
 			);
 			path = moteur_graphique;
 			sourceTree = "<group>";
@@ -118,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9963951D5F71810010BBBB /* MemoryManager.cpp in Sources */,
 				6D2A994F1C6CCB1B00C8A021 /* main.cpp in Sources */,
+				6D2A99581C6CCE5000C8A021 /* Logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +261,7 @@
 				6D2A99541C6CCB1B00C8A021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
