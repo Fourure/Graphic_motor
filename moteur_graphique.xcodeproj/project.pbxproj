@@ -12,6 +12,7 @@
 		6D9963951D5F71810010BBBB /* MemoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9963931D5F71810010BBBB /* MemoryManager.cpp */; };
 		6DC5B1A31D8554AC00DE8716 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC5B1A11D8554AC00DE8716 /* GLUT.framework */; };
 		6DC5B1A41D8554AC00DE8716 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */; };
+		6DC5B1A61D85619300DE8716 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5B1A51D85619300DE8716 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		6D9963971D606B7F0010BBBB /* MemoryCheckerOff.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MemoryCheckerOff.hpp; sourceTree = "<group>"; };
 		6DC5B1A11D8554AC00DE8716 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6DC5B1A51D85619300DE8716 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		6D2A99421C6CCB1B00C8A021 = {
 			isa = PBXGroup;
 			children = (
+				6DC5B1A51D85619300DE8716 /* README.md */,
 				6DC5B1A11D8554AC00DE8716 /* GLUT.framework */,
 				6DC5B1A21D8554AC00DE8716 /* OpenGL.framework */,
 				6D2A994D1C6CCB1B00C8A021 /* moteur_graphique */,
@@ -142,6 +145,7 @@
 			files = (
 				6D9963951D5F71810010BBBB /* MemoryManager.cpp in Sources */,
 				6D2A994F1C6CCB1B00C8A021 /* main.cpp in Sources */,
+				6DC5B1A61D85619300DE8716 /* README.md in Sources */,
 				6D2A99581C6CCE5000C8A021 /* Logger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
