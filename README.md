@@ -5,8 +5,8 @@ Notre petit moteur graphique chérie
 
 Tutorials qui peuvent être intéressant à lire :
 
-http://loulou.developpez.com/tutoriels/moteur3d/partie1/ : Explication du fonctionnement d'OpenGL et de GLUT
-http://www-evasion.imag.fr/Membres/Antoine.Bouthors/teaching/opengl/opengl1.html : Tutorial complet d'un moteur graphique. Peut être une bonne inspiration mais attention de ne pas tomber dans le copier/coller.
+http://www-evasion.imag.fr/Membres/Antoine.Bouthors/teaching/opengl/opengl1.html : Explication du fonctionnement d'OpenGL et de GLUT
+http://loulou.developpez.com/tutoriels/moteur3d/ : Tutorial complet d'un moteur graphique. Peut être une bonne inspiration mais attention de ne pas tomber dans le copier/coller.
 
 TODO List:
 - Définir une norme de codage : Nom d'un objet commence à par une majuscule, nom d'une variable de classe commence par _ (?) etc... Possibilité d'utiliser la norme de codage de QT https://wiki.qt.io/Qt_Coding_Style
